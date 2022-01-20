@@ -10,8 +10,8 @@ separate store locations.
 Input:
 ```
 [
-  locationCoords1:string,
-  locationCoords2:string
+  startLocationCoordinates:string,
+  endLocationCoordinates:string
 ]
 ```
 
@@ -19,6 +19,7 @@ Reponse sucess:
 ```
 {
   walkingDistanceInMinutes:number,
+  walkingDistanceInKilometers:number,
   osmLink:string,
   error:boolean,
 }
