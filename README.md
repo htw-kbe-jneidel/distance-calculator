@@ -1,5 +1,7 @@
 # distance-calculator
 
+Calculate the walking distance between sets of coordinates. Available through message queue RPC calls.
+
 ## Queues
 
 ### calculateDistance
